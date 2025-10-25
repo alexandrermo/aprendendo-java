@@ -1,4 +1,4 @@
-package ProgramacaoFuncional.InterfaceFuncional;
+package ProgramacaoFuncional;
 
 public class App {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package ProgramacaoFuncional.InterfaceFuncional;
+package ProgramacaoFuncional;
 
 @FunctionalInterface
 public interface Saudacao {

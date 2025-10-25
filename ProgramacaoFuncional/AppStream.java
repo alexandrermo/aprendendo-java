@@ -1,4 +1,4 @@
-package ProgramacaoFuncional.InterfaceFuncional;
+package ProgramacaoFuncional;
 
 import java.util.ArrayList;
 
