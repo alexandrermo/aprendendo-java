@@ -12,6 +12,12 @@ public class AppStream {
                 .filter((livroItem) -> livroItem.getTitulo().toLowerCase().contains("b"))
                 .forEach(System.out::println);
 
+        System.out.println("\n");
+        livros.parallelStream()
+                .filter((livroItem) -> livroItem.getTitulo().toLowerCase().contains("a"))
+                .filter((livroItem) -> livroItem.getTitulo().toLowerCase().contains("b"))
+                .forEach(System.out::println);
+
     }
 
     static ArrayList<Livro> criarLivros() {
