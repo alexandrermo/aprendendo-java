@@ -5,7 +5,7 @@ import java.io.IOException;
 
 public class CriandoArquivos {
     public static void main(String[] args) {
-        File arquivo = new File("arquivo.txt");
+        File arquivo = new File("ArquivosDiretorios/arquivo.txt");
         try {
             boolean isArquivoCriado = arquivo.createNewFile();
             System.out.println(isArquivoCriado);
